@@ -16,9 +16,11 @@
         <img src="images/พี่วิน ihavecpu.jpeg"" alt="พี่วิน ihave gpu" width="600" height="400">
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Contact us</a></li>
+                
+                <li><a href="#about-us">About us</a></li>
+                <li><a href="#my-product">Product</a></li>
+                <li><a href="#opening-hours">Opening hours</a></li>
+                <li><a href="#contact-us">Contact us</a></li>
             </ul>
         </nav>
 
@@ -70,13 +72,42 @@
                 <h3>เซ็ตคอมสตรีมเมอร์ (High End)</h3>
                 <p>ราคา 45,000 บาท ตัดต่อ 4K สตรีมเกมไม่กระตุก</p>
             </article>
-            
+        <section id="opening-hours">   
         <h3>เวลาทำการ</h3>
         <ul>
             <li>จันทร์ - ศุกร์: 10.00 น. - 20.00 น.</li>
             <li>เสาร์ - อาทิตย์: 10.00 น. - 22.00 น.</li>
             <li>หยุดทุกวันหยุดนักขัตฤกษ์</li>
         </ul>
+
+
+
+        <section id="contact-us">
+            <h2>ติดต่อเรา</h2>
+            <form action="#" method="post">
+             <fieldset>
+            <legend>กรอกข้อมูลสอบถาม</legend>
+            <label for="cus-name">ชื่อ-นามสกุล:</label>
+            <input type="text" id="cus-name" required><br>
+
+            <label for="cus-email">อีเมล:</label>
+            <input type="email" id="cus-email" required><br>
+
+            <label for="cus-tel">เบอร์โทรศัพท์ (10 หลัก):</label>
+            <input type="tel" id="cus-tel" pattern="[0-9]{10}"><br>
+
+            <label for="cus-date">วันที่สะดวกให้ติดต่อกลับ:</label>
+            <input type="date" id="cus-date"><br>
+
+            <input type="checkbox" id="subscribe" checked>
+            <label for="subscribe">สมัครรับข่าวสารโปรโมชั่น GPU</label><br>
+
+            <input type="submit" value="ส่งข้อความ">
+            </fieldset>
+    </form>
+</section>
+
+    
         </section>
 
       

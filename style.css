@@ -1,1 +1,36 @@
 /* 477-301 Exam 1 - 6710510183 นัทธมน วรรณเพชร */
+
+* {
+    box-sizing: 
+    border-box
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #61eb68;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}   
+
+#about-us , #my-product , #opening-hours , #contact-us {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+}
+
+table , th , td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+} 
